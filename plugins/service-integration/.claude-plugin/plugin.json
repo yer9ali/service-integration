@@ -1,7 +1,7 @@
 {
   "name": "service-integration",
   "displayName": "Service Integration",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Интеграция с нашими сервисами: подключиться по docs/integration сервиса или задокументировать свой сервис для партнёров",
   "author": {
     "name": "metriX"
