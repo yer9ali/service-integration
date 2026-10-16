@@ -12,12 +12,29 @@
 
 ## Установка
 
+В терминале (или в сессии Claude Code с префиксом `!`):
 ```
-/plugin marketplace add https://github.com/yer9ali/service-integration.git
-/plugin install service-integration@service-integration
+claude plugin marketplace add yer9ali/service-integration
+claude plugin install service-integration@service-integration
 ```
+и перезапустить Claude Code.
 
-Обновление: `/plugin update service-integration@service-integration`.
+### Обновление
+
+При каждом запуске скилл проверяет, не вышла ли новая версия. Если вышла — спросит, обновить
+ли сейчас, и по согласию сам выполнит команды ниже. Без сети проверка молчит и не мешает работе.
+
+Обновить вручную — в терминале (или в сессии Claude Code с префиксом `!`):
+```
+claude plugin marketplace update service-integration
+claude plugin update service-integration@service-integration
+```
+и перезапустить Claude Code. Если плагин установлен в проект, а не для пользователя,
+добавьте `-s project` ко второй команде.
+
+Для тех, кто выпускает версию: поднимите `version` в
+`plugins/service-integration/.claude-plugin/plugin.json` — по нему проверка понимает, что
+вышло обновление.
 
 ## Вызов
 
