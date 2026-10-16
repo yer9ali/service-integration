@@ -1,0 +1,14 @@
+{
+  "name": "service-integration",
+  "owner": {
+    "name": "metriX"
+  },
+  "description": "Интеграция с сервисами metriX по их документации docs/integration",
+  "plugins": [
+    {
+      "name": "service-integration",
+      "source": "./plugins/service-integration",
+      "description": "Интеграция с нашими сервисами по их документации docs/integration"
+    }
+  ]
+}

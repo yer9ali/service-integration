@@ -1,0 +1,9 @@
+{
+  "ofd": {
+    "title": "ОФД Metrix (fdo_api)",
+    "repo": "https://gitlab.metrix.com.ai/fdo-metrix/fdo_api.git",
+    "branch": "dev",
+    "docs_path": "docs/integration",
+    "aliases": ["fdo_api", "fdo", "офд"]
+  }
+}
