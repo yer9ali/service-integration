@@ -1,8 +1,8 @@
 {
   "name": "service-integration",
   "displayName": "Service Integration",
-  "version": "0.1.0",
-  "description": "Интеграция с нашими сервисами по их docs/integration и openapi.json: сценарий, план, код, тесты, чеклист готовности",
+  "version": "0.2.0",
+  "description": "Интеграция с нашими сервисами: подключиться по docs/integration сервиса или задокументировать свой сервис для партнёров",
   "author": {
     "name": "metriX"
   }
